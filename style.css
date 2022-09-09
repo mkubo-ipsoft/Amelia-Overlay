@@ -1,7 +1,7 @@
 .chat-overlay {
     position: fixed;
     width: 376px;
-    height: 500px;
+    height: 600px;
     bottom: 24px;
     right: 24px;
     z-index: 100;
@@ -20,7 +20,7 @@
 }
 
 .chat-overlay-open {
-    height: 712px;
+    height: 812px;
 }
 
 .chat-overlay-closed {
@@ -30,7 +30,7 @@
 
 .chat-overlay-wrapper {
     width: 376px;
-    height: 648px;
+    height: 748px;
 }
 
 .chat-overlay-header-mobile {
@@ -51,7 +51,7 @@
 #receiver {
     transition: opacity 1s ease-in-out;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
+   background: rgba(0, 0, 0, 0.5);
     box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
 }
