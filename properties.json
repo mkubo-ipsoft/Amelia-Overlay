@@ -1,14 +1,17 @@
 {
-  "originUrl": "https://dinersclub.demo.amelia.com/",
-  "ameliaUrl": "https://dinersclub.demo.amelia.com/Amelia/ui/dinersclub/?domainCode=dinersclub",
-  "chatUrl": "https://dinersclub.demo.amelia.com/Amelia/ui/dinersclub/",
-  "parentUrl": "https://www.dinersclub.com.ec/",
+  "originUrl": "https://us.demo.amelia.com/Amelia/",
+  "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/banking/chat?domainCode=mikekubo",
+  "chatUrl": "https://us.demo.amelia.com/Amelia/ui/banking/",
+  "parentUrl": "https://www.td.com/us/en/investing/",
   "actions": {
-    "nav_titanium-visa-corporate": {
-      "url": "https://www.dinersclub.com.ec/empresas/tarjetas-corporativas-titanium/titanium-visa-corporate"
+    "nav_real-estate-financing": {
+      "url": "https://www.td.com/us/en/investing/wealth-real-estate-financing"
     },
-    "nav_plan-de-ahorro-diners-club-pad": {
-      "url": "https://www.dinersclub.com.ec/ahorros/plan-de-ahorro-diners-club-pad"
-    }
+    "nav_local-advisor": {
+      "url": "https://uswealthadvisors.td.com/us/fl/winter-garden/michael-faraj"
+    },
+    "nav_online-mobile-banking-faq": {
+      "url": "https://www.td.com/us/en/personal-banking/search?query=How%20do%20I%20enroll%20in%20Online%20or%20Mobile%20Banking&source=1"
+    }  
   }
 }
