@@ -1,7 +1,7 @@
 {
   "originUrl": "https://us.demo.amelia.com/Amelia/",
-  "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/banking/chat?domainCode=mikekubo",
-  "chatUrl": "https://us.demo.amelia.com/Amelia/ui/banking/",
+  "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
+  "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "parentUrl": "https://www.td.com/us/en/investing/",
   "actions": {
     "nav_real-estate-financing": {
