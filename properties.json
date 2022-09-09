@@ -12,6 +12,9 @@
     },
     "nav_online-mobile-banking-faq": {
       "url": "https://www.td.com/us/en/personal-banking/search?query=How%20do%20I%20enroll%20in%20Online%20or%20Mobile%20Banking&source=1"
-    }  
+    },  
+    "nav_local-branch": {
+      "url": "https://locations.td.com/us/12200-w-colonial-dr-winter-garden"
+    }
   }
 }
