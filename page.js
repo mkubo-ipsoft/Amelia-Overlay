@@ -70,9 +70,27 @@ function closeChatOverlay(receiverElem, imgElemOpen, imgElemClose) {
 }
 
 function loadiFrame(url) {
+    let selector = document.querySelector("#tempiFrame")
+    if (selector !== null){
+        console.log("found it")
+        selector.parentNode.removeChild(selector);
+
+    }
+    else{
+        console.log("did not find it")
+        document.querySelector("#parentFrame").style.opacity = 0;
+    }
     let x = document.createElement("IFRAME");
     x.setAttribute("src", url);
+    x.setAttribute("id", "tempiFrame");
     x.setAttribute("style", "position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:99;");
+    document.body.appendChild(x);
+}
+
+function loadImage(img) {
+    let x = document.createElement("img");
+    x.setAttribute("src", img);
+    x.setAttribute("style", "margin:0; padding:0; display: grid; height: 100%; z-index: 99; position: fixed; top: 0px; left: 0px");
     document.body.appendChild(x);
 }
 
@@ -92,15 +110,42 @@ function toggleChatOverlay() {
     }
 }
 
+function getElementByXpath(path) {
+  console.log('In getElementByXPath')
+  console.log(document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue);
+  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
+
 function receiveMessage(e, data) {
-    console.log('Received message ' + e.data.action)
-    let action = e.data.action
+    console.log('Received message ' + e.data.action);
+    let action = e.data.action;
     // if (e.origin !== originUrl)
     //     console.log('Hit return in receiveMesage')
     //     return;
-    let actionUrl = jsonData.actions[action].url;
-    loadiFrame(actionUrl);
-    console.log('Sent URL to chat frame')
+    if (action.includes("nav")) {
+        console.log("Loading navigation element");
+        let actionUrl = jsonData.actions[action].url;
+        loadiFrame(actionUrl);
+        console.log('Sent URL to chat frame');
+    }
+    else if (action.includes("img")) {
+        console.log("Inserting image");
+        let actionUrl = jsonData.actions[action].url;
+        loadImage(actionUrl);
+        console.log('Sent image');
+    }
+    else if (action.includes("insert")) {
+        console.log("Inserting element");
+//         console.log(document.querySelectorAll('*[id]'))
+//         var text = document.getElementById('email');
+        var targetPath = '/html/body/div[1]/div/div/div[2]/div/article/div/form/div[1]/div/input';
+        var target = getElementByXpath(targetPath);
+        console.log(target);
+        target.value += 'derrick@steele.com';
+    }
+    else {
+        console.log("No action found");
+    }
 }
 
 function sendMessage(data) {
