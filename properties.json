@@ -2,19 +2,16 @@
   "originUrl": "https://us.demo.amelia.com/Amelia/",
   "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
-  "parentUrl": "https://www.td.com/us/en/investing/",
+  "parentUrl": "https://www.hertz.com/rentacar/reservation/",
   "actions": {
-    "nav_real-estate-financing": {
-      "url": "https://www.td.com/us/en/investing/wealth-real-estate-financing"
+    "nav_profile-update": {
+      "url": "https://www.hertz.com/rentacar/emember/modify/profile.do?"
     },
-    "nav_local-scheduler": {
-      "url": "https://www.td.com/us/en/personal-banking/store-locator#/?id=40971"
+    "nav_find-receipt": {
+      "url": "https://www.hertz.com/rentacar/emember/modify/profile-receipts"
     },
-    "nav_online-mobile-banking-faq": {
-      "url": "https://www.td.com/us/en/personal-banking/search?query=How%20do%20I%20enroll%20in%20Online%20or%20Mobile%20Banking&source=1"
-    },  
-    "nav_local-branch": {
-      "url": "https://locations.td.com/us/12200-w-colonial-dr-winter-garden"
+    "nav_rent-ev": {
+      "url": "https://www.hertz.com/rentacar/rental-car-deals/electric-car-rentals/"
     }
   }
 }
