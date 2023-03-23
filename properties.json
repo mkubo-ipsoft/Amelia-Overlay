@@ -4,7 +4,7 @@
   "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "parentUrl": "https://www.mortgageonefunding.com/",
   "actions": {
-    "nav_mortage-apply": {
+    "nav_mortgage-apply": {
       "url": "https://www.mortgageonefunding.com/short-app/"
     },
     "nav_mortgage-calc": {
