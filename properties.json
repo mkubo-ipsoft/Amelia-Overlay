@@ -2,16 +2,16 @@
   "originUrl": "https://us.demo.amelia.com/Amelia/",
   "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
-  "parentUrl": "https://www.hertz.com/rentacar/reservation/",
+  "parentUrl": "https://www.mortgageonefunding.com/",
   "actions": {
-    "nav_profile-update": {
-      "url": "https://www.hertz.com/rentacar/emember/modify/profile.do?"
+    "nav_mortage-apply": {
+      "url": "https://www.mortgageonefunding.com/short-app/"
     },
-    "nav_find-receipt": {
-      "url": "https://www.hertz.com/rentacar/emember/modify/profile-receipts"
+    "nav_mortgage-calc": {
+      "url": "https://www.mortgageonefunding.com/mortgage-calculators/?calc="
     },
-    "nav_rent-ev": {
-      "url": "https://www.hertz.com/rentacar/rental-car-deals/electric-car-rentals/"
+    "nav_mortgage-programs": {
+      "url": "https://www.mortgageonefunding.com/loan-programs/"
     }
   }
 }
