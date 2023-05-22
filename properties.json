@@ -2,16 +2,16 @@
   "originUrl": "https://us.demo.amelia.com/Amelia/",
   "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
-  "parentUrl": "https://www.mortgageonefunding.com/",
+  "parentUrl": "https://www.emich.edu/",
   "actions": {
-    "nav_mortgage-apply": {
-      "url": "https://www.mortgageonefunding.com/short-app/"
+    "nav_find-advisor": {
+      "url": "https://www.emich.edu/admissions/advisors/index.php"
     },
-    "nav_mortgage-calc": {
-      "url": "https://www.mortgageonefunding.com/mortgage-calculators/?calc="
+    "nav_program-fees": {
+      "url": "https://www.emich.edu/sbs/basics/program.php"
     },
-    "nav_mortgage-programs": {
-      "url": "https://www.mortgageonefunding.com/loan-programs/"
+    "nav_transfer-credits": {
+      "url": "https://www.emich.edu/admissions/transfer/credits/index.php"
     }
   }
 }
