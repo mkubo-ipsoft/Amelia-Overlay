@@ -2,7 +2,7 @@
   "originUrl": "https://us.demo.amelia.com/Amelia/",
   "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
   "chatUrl": "https://us.demo.amelia.com/Amelia/ui/lgdemo/chat",
-  "parentUrl": "https://www.emich.edu/",
+  "parentUrl": "https://www.sutterhealth.org/",
   "actions": {
     "nav_find-advisor": {
       "url": "https://www.emich.edu/admissions/advisors/index.php"
